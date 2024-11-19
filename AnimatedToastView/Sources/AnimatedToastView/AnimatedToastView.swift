@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct AnimatedToastView<Content: View>: View {
+public struct AnimatedToastView<Content: View>: View {
     @State private var isVisible: Bool = false
     private let content: () -> Content
     private let displayDuration: CGFloat
     
-    init(displayDuration: CGFloat, @ViewBuilder content: @escaping () -> Content) {
+    public init(displayDuration: CGFloat, @ViewBuilder content: @escaping () -> Content) {
         self.displayDuration = displayDuration
         self.content = content
     }
     
-    var body: some View {
+    public var body: some View {
         VStack {
             if isVisible {
                 content()
