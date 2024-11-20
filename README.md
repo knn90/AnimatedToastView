@@ -111,6 +111,6 @@ struct ContentView: View {
 }
 ```
 
-![AnimatedToastView_preview](/images/ios/animatedToast_preview.gif)
+https://github.com/user-attachments/assets/9723f57d-7611-493f-81ae-d6508a46fb0f
 
 ### Happy coding!
