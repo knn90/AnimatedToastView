@@ -1,13 +1,5 @@
 # AnimatedToastView
 
----
-title: "[iOS] Enhance User Experience with Smooth Transitions in SwiftUI using AnimatedToastView"
-date: 2024-11-19T19:18:21+07:00
-draft: false
-tags: ["SwiftUI", "swift", "animation"]
-categories: ["ios"]
----
-
 AnimatedToastView enhances SwiftUI applications by automating view transitions with smooth animations. By customizing the duration and leveraging various transition effects.
 
 ## Code Overview
